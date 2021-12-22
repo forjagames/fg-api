@@ -45,7 +45,7 @@ const config = {
         title: 'Nexus',
         logo: {
           alt: 'FG Logo',
-          src: 'https://forja-games-api.web.app/assets/icon/favicon.png',
+          src: 'https://nexus.forjagames.com/assets/icon/favicon.png',
         },
         items: [
           {
@@ -56,7 +56,7 @@ const config = {
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://forja-games-api.web.app',
+            href: 'https://nexus.forjagames.com',
             label: 'Dashboard',
             position: 'right',
           },
@@ -92,7 +92,7 @@ const config = {
               // },
               {
                 label: 'Dashboard',
-                href: 'https://forja-games-api.web.app',
+                href: 'https://nexus.forjagames.com',
               },
               {
                 label: 'Itch.io',
