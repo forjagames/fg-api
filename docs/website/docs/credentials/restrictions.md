@@ -24,7 +24,7 @@ identity
 
 Example 2: Credentials, Identity, Logger and Leaderboard.
 ```
-credentials,identity,logger,leaderboard
+credential,identity,logger,leaderboards,store,storage
 ```
 
 ### Request Origin Restriction
