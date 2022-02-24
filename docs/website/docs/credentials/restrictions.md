@@ -17,6 +17,8 @@ Using this restriction, the credential will only have access to specific service
 
 You can add one or multiple services.
 
+Possible values: `credential`, `identity`, `logger`, `leaderboards`.
+
 Example 1: Only identity services (comma separated, without spaces).
 ```
 identity
@@ -24,7 +26,7 @@ identity
 
 Example 2: Credentials, Identity, Logger and Leaderboard.
 ```
-credential,identity,logger,leaderboards,store,storage
+credential,identity,logger,leaderboards
 ```
 
 ### Request Origin Restriction
