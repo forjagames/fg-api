@@ -14,7 +14,7 @@ The `Identity Service` allows your users to authenticate their accounts through 
 
 ### Settings
 - **E-mail Authentication**: Login with an e-mail address.
-- **Wallet Authentication**: Login with a metamask wallet.
+- **Wallet Authentication**: Login with a [Metamask](../misc/glossary.md) wallet.
 - **Success URL**: Return URL for successfull cases. It's required if you are working in redirect mode.
 - **Fail URL**: Return URL for unsuccessfull cases. It's required if you are working in redirect mode.
 - **Sign Up**: Shows or hides the sign up option.
