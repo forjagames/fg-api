@@ -28,3 +28,6 @@ Finally, confirm the popup, and your new draft leaderboard will be ready to set 
 - **Min value**: Minimum allowed score.
 - **Max value**: Maximum allowed score.
 
+## Deleting scores
+As an admin user, you have permissions to delete scores uploaded by the user. 
+We recommend using this feature in case of detecting fraudulent scores or in case of changing the score calculation of your game.
