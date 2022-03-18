@@ -11,7 +11,7 @@ The `Store Service` allows you to sell virtual goods on [🔗BNB Smart Chain](ht
 * One or two wallets on a `Supported Blockchain`.
 
 ## Supported Cryptocurrencies
-* BUSD (Only on `BNB Smart Chain`) - [🔗Binance USD](https://coinmarketcap.com/currencies/binance-usd)
+* BUSD (Only on _BNB Smart Chain_) - [🔗Binance USD](https://coinmarketcap.com/currencies/binance-usd)
 * USDT - [🔗Tether](https://coinmarketcap.com/currencies/tether)
 * USDC - [🔗USD Coin](https://coinmarketcap.com/currencies/usd-coin)
 * DAI - [🔗Dai](https://coinmarketcap.com/currencies/multi-collateral-dai)
