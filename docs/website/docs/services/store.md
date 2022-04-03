@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Store
 
-The `Store Service` allows you to sell virtual goods on [🔗BNB Smart Chain](https://academy.binance.com/en/) and [🔗Polygon](https://polygon.technology/) easily and safely.
+The `Store Service` allows you to sell virtual goods on [🔗BNB Smart Chain](https://academy.binance.com/en/) _(also known as Binance Smart Chain)_ and [🔗Polygon](https://polygon.technology/) easily and safely.
 
 ## Requirements (to setup your Store)
 * [Metamask](../misc/glossary.md).
