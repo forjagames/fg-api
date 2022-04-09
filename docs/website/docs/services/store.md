@@ -19,3 +19,21 @@ The `Store Service` allows you to sell virtual goods on [🔗BNB Smart Chain](ht
 ## Supported Blockchains
 * BNB Smart Chain
 * Polygon (in the future)
+
+# Sections
+
+## Admin _Section_
+In this section you will find the action to connect to your wallet.
+
+## Project _Area_
+### Project _Section_
+In this section you can see the status of the project in the selected blockchain.
+
+## Payments _Area_
+### Attached Wallets _Section_
+This section allows you to link blockchain wallets to the Store. The action of linking the wallets allows them to be used to receive payments in the different blockchains.
+
+## Products _Area_
+### Products _Section_
+In this section you can manage the virtual goods and link them to the different blockchains.
+
