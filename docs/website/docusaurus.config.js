@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'forjagames', // Usually your GitHub org/user name.
   projectName: 'fg-api',          // Usually your repo name.
-
   presets: [
     [
       'classic',

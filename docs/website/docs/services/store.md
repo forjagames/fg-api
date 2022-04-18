@@ -8,7 +8,7 @@ The `Store Service` allows you to sell virtual goods on [🔗BNB Smart Chain](ht
 
 ## Requirements (to setup your Store)
 * [Metamask](../misc/glossary.md).
-* One or two wallets on a `Supported Blockchain`.
+* One or two wallets on a `Supported Blockchain`. _[🔗How to connect a wallet](https://docs.pancakeswap.finance/get-started/connection-guide)._
 
 ## Supported Cryptocurrencies
 * BUSD (Only on _BNB Smart Chain_) - [🔗Binance USD](https://coinmarketcap.com/currencies/binance-usd)
@@ -36,4 +36,3 @@ This section allows you to link blockchain wallets to the Store. The action of l
 ## Products _Area_
 ### Products _Section_
 In this section you can manage the virtual goods and link them to the different blockchains.
-
