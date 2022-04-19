@@ -23,7 +23,8 @@ List of all the projects belonging to the account of the logged in user.
 ### Accounts _Section_
 Data of interest referred to the invoicing of the account.
 
-## News _Section_
+## News _Area_
+### News _Section_
 Nexus news and changelog.
 
 ## Forja Games _Area_
