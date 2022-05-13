@@ -24,7 +24,7 @@ Finally, confirm the popup, and your new draft leaderboard will be ready to set 
 - **Name**: Visible name of the leaderboard.
 - **Sort asc.**: The ranking order. If you choose ascending order, then those with the lowest score will be at the top.
 - **Allow guest scores**: If this value is disabled, only users authenticated with `identity` will be able to submit scores. Otherwise, anyone will be able to do so.
-- **Records limit**: Limit of stored (and visible) records in the ranking.
+- **Records limit**: Limit of stored (and visible) records in the ranking. _Range: between 10 and 999 records._
 - **Min value**: Minimum allowed score.
 - **Max value**: Maximum allowed score.
 
