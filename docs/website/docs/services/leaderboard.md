@@ -31,3 +31,6 @@ Finally, confirm the popup, and your new draft leaderboard will be ready to set 
 ## Deleting scores
 As an admin user, you have permissions to delete scores uploaded by the user. 
 We recommend using this feature in case of detecting fraudulent scores or in case of changing the score calculation of your game.
+
+## Deleting leaderboards
+You can only delete `draft leaderboards`. If you want to delete a `published leaderboard`, you must unpublish it first.

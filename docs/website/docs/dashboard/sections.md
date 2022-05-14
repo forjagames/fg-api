@@ -30,3 +30,10 @@ Nexus news and changelog.
 ## Forja Games _Area_
 ### Links _Section_
 All official links of interest.
+
+## Footer _Area_
+### Version _Section_
+Front-End version.
+
+### Links _Section_
+Legal links and copyright.
