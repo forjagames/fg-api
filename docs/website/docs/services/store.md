@@ -38,14 +38,16 @@ This section allows you to link blockchain wallets to the Store. The action of l
 In this section you can manage the virtual goods and link them to the different blockchains.
 
 ## Store Setup
+### I. Enable your Project Store
 1. Enable the Store for the selected project.
 2. Fill the `Store Service settings`.
 3. Read and confirm the `Terms & Conditions`, and the `Disclaimer`.
 4. Go to `Attached Wallets` section, and attach a wallet.
-5. Go to `Products` section, and add a new product.
-6. Connect your `Blockchain Wallet`.
-7. In the `Project` section, `Enable and Sync` your project.
-8. Go to `Products` section, and open your new product.
-9. In the `Blockchain` section of your product page, set the `Initial Stock` of your product (if it is stockable) and `Link` your product to the Blockchain.
-10. Customize your product page.
-11. When you are ready, `Publish` your product.
+5. Connect your `Blockchain Wallet`.
+6. In the `Project` section, `Enable and Sync` your project.
+
+### II. Publish your Product
+1. Go to `Products` section, and add a new product. Then open the page of the product.
+2. In the `Blockchain` section of your product page, set its `Initial Stock` (if it is stockable) and `Link` it to the Blockchain.
+3. Customize your product page (icon, urls, css styles).
+4. When you are ready, `Publish` your product.
