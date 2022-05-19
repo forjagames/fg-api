@@ -39,15 +39,22 @@ In this section you can manage the virtual goods and link them to the different 
 
 ## Store Setup
 ### I. Enable your Project Store
-1. Enable the Store for the selected project.
-2. Fill the `Store Service settings`.
+1. Enable the Store for the selected project.<br />
+![Step11](/img/store/store_setup_step_enable.png)<br />
+2. Fill the `Store Service settings` and save it.<br />
+![Step12](/img/store/store_setup_step_fill.png)<br />
 3. Read and confirm the `Terms & Conditions`, and the `Disclaimer`.
 4. Go to `Attached Wallets` section, and attach a wallet.
 5. Connect your `Blockchain Wallet`.
 6. In the `Project` section, `Enable and Sync` your project.
+![Step16](/img/store/store_setup_step_sync.png)<br />
 
 ### II. Publish your Product
-1. Go to `Products` section, and add a new product. Then open the page of the product.
-2. In the `Blockchain` section of your product page, set its `Initial Stock` (if it is stockable) and `Link` it to the Blockchain.
-3. Customize your product page (icon, urls, css styles).
-4. When you are ready, `Publish` your product.
+1. Go to `Products` section, and add a new product.<br />
+![Step21](/img/store/store_setup_step_add_product.png)<br />
+2. Open the product page.
+3. In the `Blockchain` section of your product page, set its `Initial Stock` (if it is stockable) and `Link` it to the Blockchain.<br />
+![Step23](/img/store/store_setup_step_sync_product.png)<br />
+4. Customize your product page (icon, urls, css styles).<br />
+![Step24](/img/store/store_setup_step_preview_product.png)<br />
+5. When you are ready, `Publish` your product.
