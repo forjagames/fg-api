@@ -16,6 +16,8 @@ The `Key` is the identifier of your credential. This value cannot be changed.
 
 The `Secret` is like a password. This value can be changed by the administrator, but you will need to update your game with the new secret in order to restore the access to the `API`.
 
+The `Alias` is an optional field. It is only visibile on this Portal. It is useful to identify your credentials with a friendly name.
+
 ## Security
 
 To increase the security of your `Credentials`, you can use the [Restrictions](restrictions.md).
