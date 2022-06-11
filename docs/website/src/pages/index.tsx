@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
       description="Nexus Documentation">
       <HomepageHeader />
       <main>
-        <div className="main-index">
+        <div className="mainIndex">
           <Link className="button button--secondary button--lg" to="/docs/intro">Open documentation</Link>
         </div>
       </main>
