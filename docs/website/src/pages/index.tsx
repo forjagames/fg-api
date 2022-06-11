@@ -4,10 +4,10 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+// import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -26,15 +26,20 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Docs - ${siteConfig.title}`}
-      description="Forja Games Nexus documentation">
+      description="Nexus Documentation">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div className="main-index">
+          <Link className="button button--secondary button--lg" to="/docs/intro">Open documentation</Link>
+        </div>
       </main>
+      {/* <main>
+        <HomepageFeatures />
+      </main> */}
     </Layout>
   );
 }
