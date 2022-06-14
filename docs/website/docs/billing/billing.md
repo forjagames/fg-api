@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Billing
 
-In this sectio we will explain Nexus billing.
+In this section we will explain Nexus billing.
 
 ## Resources
 - Bandwidth: bandwidth consumed by each request.
