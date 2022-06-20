@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "pdf": "npx mr-pdf --initialDocURLs=\"https://forjagames.github.io/fg-api/docs/intro/\" --outputPDFFilename nexus-manual.pdf --contentSelector=\"article\" --paginationSelector=\".pagination-nav__item--next > a\" --excludeSelectors=\".theme-edit-this-page,.margin-vert--xl a\" --coverImage=\"https://nexus.forjagames.com/assets/icon/favicon.png\" --coverTitle=\"Nexus\""
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.13",
