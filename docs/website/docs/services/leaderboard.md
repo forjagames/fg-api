@@ -12,6 +12,8 @@ To add a new leaderboard, you must click on the menu button and then click on "A
 
 Once this is done, you will be prompted for a name for your leaderboard. You must choose a valid name. 
 
+Confirm the popup, and then you will be prompted for generating the `Secret protection token`. We recommend that you generate it. In the future the generation of the secret will be required.
+
 Finally, confirm the popup, and your new draft leaderboard will be ready to set up.
 
 ## Set up using Portal
@@ -22,6 +24,7 @@ Finally, confirm the popup, and your new draft leaderboard will be ready to set 
 
 ### Settings
 - **Name**: Visible name of the leaderboard.
+- **Secret protection**: Secret token used for encrypt the Leaderboard submissions.
 - **Sort asc.**: The ranking order. If you choose ascending order, then those with the lowest score will be at the top.
 - **Allow guest scores**: If this value is disabled, only users authenticated with `identity` will be able to submit scores. Otherwise, anyone will be able to do so.
 - **Records limit**: Limit of stored (and visible) records in the ranking. _Range: between 10 and 999 records._
