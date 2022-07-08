@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Billing
 
-Moved to [Billing](../billing/billing.md)
+Moved to [Billing](../billingx/billing.md)
