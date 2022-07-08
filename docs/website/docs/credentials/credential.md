@@ -10,7 +10,7 @@ The first step to use the API is to access from the app (or game) using the key 
 
 You can have up to 3 credentials per project.
 
-## Key & secret
+## Key, Secret and Alias
 
 The `Key` is the identifier of your credential. This value cannot be changed.
 
