@@ -27,6 +27,7 @@ Finally, confirm the popup, and your new draft leaderboard will be ready to set 
 - **Secret protection**: Secret token used for encrypt the Leaderboard submissions.
 - **Sort asc.**: The ranking order. If you choose ascending order, then those with the lowest score will be at the top.
 - **Allow guest scores**: If this value is disabled, only users authenticated with `identity` will be able to submit scores. Otherwise, anyone will be able to do so.
+- **Unique score per player**: Each player has a single score. This prevents players from having a lot of scores on the same leaderboard, being able to fill it by himself. If this option is disabled, a player could completely fill the table with different scores.
 - **Records limit**: Limit of stored (and visible) records in the ranking. _Range: between 10 and 999 records._
 - **Min value**: Minimum allowed score.
 - **Max value**: Maximum allowed score.
