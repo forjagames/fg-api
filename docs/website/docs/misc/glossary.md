@@ -1,5 +1,10 @@
 # Glossary
 
+## General
+
+### Favicon
+A Favicon is an icon associated with a particular website, typically displayed in the address bar of a browser accessing the site or next to the site name in a user's list of bookmarks.
+
 ## Blockchain
 
 ### Blockchain
