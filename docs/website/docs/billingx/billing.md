@@ -45,3 +45,6 @@ FDC = Round(PDC * 10 ^ 8) / (10 ^ 8) = 8219178 / (10 ^ 8) = 0.08219178
 
 Final daily cost = 0.08219178
 ```
+
+At the end of the month, the monthly cost of each project is obtained by adding the consumption measured on each day. Then each project's total is rounded to two decimal places, and added, to determine the total cost of the invoice.
+
