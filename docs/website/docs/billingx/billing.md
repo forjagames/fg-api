@@ -26,7 +26,7 @@ The total of the resources reserved is registered day by day. The costs are appl
 For the calculation to be independent of the number of days in the month, we use the following formula:
 
 ```
-Precise day cost (PDC) = (Total monthly cost of all projects) * 12 / 365
+Precise daily cost (PDC) = (Total monthly cost of all projects) * 12 / 365
 ```
 
 Then, we get a number with a lot of decimals.
@@ -34,7 +34,7 @@ Then, we get a number with a lot of decimals.
 To round up the value, we use this last formula:
 
 ```
-Final day cost (FDC) = Round(PDC * (10 ^ 8)) / (10 ^ 8)
+Final daily cost (FDC) = Round(PDC * (10 ^ 8)) / (10 ^ 8)
 ```
 
 For example, if the monthly cost of all your projects is 2.5 dollars:
@@ -43,5 +43,5 @@ For example, if the monthly cost of all your projects is 2.5 dollars:
 PDC = 2.5 * 12 / 365 = 0.08219178082191780821917808219178
 FDC = Round(PDC * 10 ^ 8) / (10 ^ 8) = 8219178 / (10 ^ 8) = 0.08219178
 
-Final day cost = 0.08219178
+Final daily cost = 0.08219178
 ```
