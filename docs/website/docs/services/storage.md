@@ -57,10 +57,11 @@ ABC123/(Connection ID)/$me/match-start-date
   * **$admin**: all admins can read.
   * **[User ID]**: only the specific `User ID` can read.
 
-
-
 ## Key Value Identity-Integrated DB
-This engine is being developed.
+[Official docs](../storage/kevin-db.md)
 
 ## File Storage
 This engine is being developed.
+
+## Explorer
+[Explorer](../storage/explorer.md) is a tool for browsing the service's databases, query rows, view and modify data, manage users, manage groups, and manage backups.
