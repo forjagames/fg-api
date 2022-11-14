@@ -64,5 +64,44 @@ This engine is being developed.
 ### 3. File Storage
 This engine is being developed.
 
+## Dashboard
+![Sections](/img/storage/storage_dashboard_2.png)
+
+### Navigation Bar
+* __Back button (top-left)__: Returns to the project page.
+* __Help icon (top-right)__: Opens this documentation.
+
+### Overview _Area_
+It shows four boxes with useful information.
+* The first indicates the total number of databases in the project.
+* The second shows the number of rows or values currently stored in the databases.
+* The third shows the occupied size in Megabytes.
+* The last one shows a summary of the last requests.
+
+### Storage Engines _Area_
+The engines are divided into three tabs with their own names.
+In the image we appreciate the view when choosing the first tab, that is, the KevinDB tab.
+Inside it we can see an action bar, and a table with the existing databases for this engine.
+* __Action bar__: Allows you to create a new database and manage backups.
+
+![Sections](/img/storage/storage_new_db.png)
+
+The new database name must be a slug.
+_A URL slug is the part of the URL after the last backslash. For example, the article you’re reading now has a URL that looks like this:_
+`https://forjagames.github.io/fg-api/docs/dashboard/new-database`. 
+_the slug would be `new-database`._
+
+* __DBs Table__: Shows the metadata of the databases. By clicking on each row, a menu is displayed that will allow us to perform a series of actions.
+
+![Sections](/img/storage/storage_menu.png)
+
+* __Menu items__
+  1. __Explorer (new window)__: Opens the [Explorer](../storage/explorer.md) in a new window.
+  2. __Explorer__: Opens the [Explorer](../storage/explorer.md).
+  3. __Edit__: Allows you to rename the database.
+  4. __Copy UUID__: Copies the UUID of the database to the clipboard.
+  5. __Delete__: Deletes the database permanently.
+  6. __Cancel__: Close the menu without performing any action.
+
 ## Explorer
 [Explorer](../storage/explorer.md) is a tool for browsing the service's databases, query rows, view and modify data, manage users, manage groups, and manage backups.
