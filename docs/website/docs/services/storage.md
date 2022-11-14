@@ -10,17 +10,18 @@ The `Storage Service` provides you with different tools to store information.
 
 
 ## Storage Engines
-* KevinDB (Key Value Identity-Integrated DB)
-* KevsimDB (Key Value Simple DB)
-* File Storage
+1. KevinDB (Key Value Identity-Integrated DB)
+2. KevsimDB (Key Value Simple DB)
+3. File Storage
 
-## Key Value Identity-Integrated DB
+### 1. Key Value Identity-Integrated DB
+[Official docs](../storage/kevin-db.md)
 
 This non-relational database engine allows data to be stored as key-value tuples.
 
 The advantage of this engine is that it allows managing multiple users, and it has a solid route structure that allows you to play with access, reading and writing permissions, depending on the type of user.
 
-### Route structure
+#### Route structure
 The routes are integrated with [Identity Service](./identity.md).
 Examples of keys for user ID ABC123:
 
@@ -57,10 +58,10 @@ ABC123/(Connection ID)/$me/match-start-date
   * **$admin**: all admins can read.
   * **[User ID]**: only the specific `User ID` can read.
 
-## Key Value Identity-Integrated DB
-[Official docs](../storage/kevin-db.md)
+### 2. Key Value Simple DB
+This engine is being developed.
 
-## File Storage
+### 3. File Storage
 This engine is being developed.
 
 ## Explorer
