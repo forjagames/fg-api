@@ -104,4 +104,4 @@ _the slug would be `new-database`._
   6. __Cancel__: Close the menu without performing any action.
 
 ## Explorer
-[Explorer](../storage/explorer.md) is a tool for browsing the service's databases, query rows, view and modify data, manage users, manage groups, and manage backups.
+[Explorer](../storage/explorer.md) is a tool for browsing the service's databases, query rows, view and modify data, manage users, groups, and backups.
