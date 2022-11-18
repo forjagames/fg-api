@@ -12,4 +12,4 @@ sidebar_position: 2
 - NetStandard 2.0 SDK _(coming soon)_
 - Unity SDK _(coming soon)_
 - Game Maker Studio 2.3+ SDK _(deprecated)_
-  - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/gms2) *\[Deprecated\]*
+  - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/gms2)
