@@ -6,7 +6,7 @@ sidebar_position: 2
 
 > KEVIN DB: **Ke**y **V**alue **I**dentity-I**n**tegrated **D**ata**b**ase
 
-<small>Revision: 1 | 2022-10-31, by Luciano R.</small>
+<small>Revision: 2 | 2022-11-27, by Luciano R.</small>
 
 The DB is intended to store data from users.
 
@@ -16,6 +16,7 @@ The DB is an entity. It needs the Project ID.
 ## <u>Users</u>
 * $global: All users.
 * $admin: Administrator credentials (example the Game Server).
+* $me: Logged User ID.
 * [User ID]: User ID (from Identity Service).
 
 ## <u>Keys</u>
@@ -30,7 +31,7 @@ If you want to store a bigger key, you need to use the size postfix `.mk` (Mega 
 `[User ID]/[System Route]/[Key name].mk`
 
 ### Key name
-The key name must be a slug. Its length cannot exceed 20 characters. Postfixes do not affect the length of the name.
+The key name must be a slug. Its length cannot exceed 40 characters. Postfixes do not affect the length of the name.
 
 ### System Routes
 * **Private**: only the user can write and read. *Useful for storing user settings*.
