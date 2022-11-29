@@ -6,6 +6,10 @@ sidebar_position: 2
 
 The `Identity Service` allows your users to authenticate their accounts through different mechanisms.
 
+With this service you can also manage accounts, suspend, unsuspend, and delete them.
+
+Users will be able to register, login, change their password, delete their account, view and edit their profile.
+
 ## Set up using Portal
 
 ### Login modes
@@ -73,3 +77,12 @@ button:hover {
   opacity: .8
 }
 ```
+
+## Security
+* Captcha
+* E-mail confirmation
+* Field locks: Fields with "field lock" (`username`) when modified are blocked for a certain amount of time, to avoid problems of a different nature.
+* Password validation: The password requires a minimum of 8 characters, and does not have to be included in the list of common passwords (listed with the top 10000 most used passwords). Password is stored as a hashusing the PBKDF2 algorithm.
+* Temporary account blocking: If the account has many failed login attempts, the account is temporarily locked to prevent unwanted access.
+* Wallet confirmation: The owner of the wallet is confirmed by signing a value linked to his/her account.
+
