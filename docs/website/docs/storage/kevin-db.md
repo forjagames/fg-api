@@ -6,7 +6,7 @@ sidebar_position: 2
 
 > KEVIN DB: **Ke**y **V**alue **I**dentity-I**n**tegrated **D**ata**b**ase
 
-<small>Revision: 2 | 2022-11-27, by Luciano R.</small>
+<small>Revision: 3 | 2022-12-01, by Luciano R.</small>
 
 The DB is intended to store data from users.
 
@@ -75,7 +75,23 @@ The format of the keys is:
 ## <u>User permissions</u>
 User permissions can be view, write, read, and delete. If you don't specify the permissions, they all will be `true` by default.
 You can set permissions for specific routes, or you can use routes with wilcards.
-Permits are restrictive. In other words, if the user does not have permissions on a route, due to the structure defined above, they cannot be forced to have them. Permissions only serve to increase restrictions.
+
+### Main structure
+Permissions are restrictive. In other words, if the user does not have permissions on a route, due to the [structure](#system-routes) defined above, they cannot be forced to have them. Permissions only allows you to increase restrictions. 
+
+### Priorities
+Permissions have a priority system. This will be executed only if permissions respects the [main structure](#system-routes) are approved.
+The more specific is the route, the more important will be the permission.
+This is very useful because it allows you to make exclusions.
+
+For example, if you want a user or group to have all folders locked except for a specific one, we can achieve it in the following way:
+
+| Route                            | W | R | V | D | Comment                                            |
+|----------------------------------|---|---|---|---|----------------------------------------------------|
+| **                               | X | V | V | X | All routes are read-only.                          |
+| */private/preferences/**         | V | V | V | V | Each user can read and write their preferences.    |
+
+### Identity integration
 If you want to affect only the routes of the user that is calling the action, you can use the `$me` keyword.
 
 ## <u>How it works?</u>
