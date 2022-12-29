@@ -6,7 +6,7 @@ sidebar_position: 2
 
 > KEVIN DB: **Ke**y **V**alue **I**dentity-I**n**tegrated **D**ata**b**ase
 
-<small>Revision: 3 | 2022-12-01, by Luciano R.</small>
+<small>Revision: 4 | 2022-12-02, by Luciano R.</small>
 
 The DB is intended to store data from users.
 
@@ -104,6 +104,9 @@ If you want to affect only the routes of the user that is calling the action, yo
 * **Add [Key Path] = [Value]**: Adds a value. If the key already exists, it fails.
 * **Set [Key Path] = [Value]**: Sets a value. If the key already exists, it overwrites it.
 * **Get [Key Path]**: Gets a value. If the key doesn't exists, returns null.
+* **Find [Key Path]**: Searchs for a routes that matches the specified path. If it finds it, it returns the routes found and its values. Wildcards are allowed.
+* **FindOne [Key Path]**: Searchs for a routes that matches the specified path. If it finds it, it returns the route found and its value. Wildcards are allowed.
+* **FindKeys [Key Path]**: Searchs for a routes that matches the specified path. If it finds it, it returns the routes found. Wildcards are allowed.
 * **Del [Key Path]**: Deletes the key. Returns true if the key existed.
 * **Ren [Key Path] = [New name]**: Rename the key within the same route.
 * **Mv [Key Path] = [New Key Path]**: Moves the key to another route. Fails if the origin key doesn't exists, or if the destination key already exists.

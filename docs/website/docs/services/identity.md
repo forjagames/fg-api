@@ -86,3 +86,8 @@ button:hover {
 * Temporary account blocking: If the account has many failed login attempts, the account is temporarily locked to prevent unwanted access.
 * Wallet confirmation: The owner of the wallet is confirmed by signing a value linked to his/her account.
 
+## Account Deletion
+* Users have the option to delete their accounts.
+* To do so, they must enter their password and complete a captcha verification. Once this is done, the account will be deactivated for 30 days. 
+* If the user does not log in during this time, the account will be permanently deleted.
+* If users wants to cancel the deletion, they can log in to their account before the 30-day period ends, and the deletion will be automatically cancelled.
