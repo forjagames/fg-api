@@ -17,9 +17,9 @@ Using this restriction, the credential will only have access to specific service
 
 You can add one or multiple services.
 
-Possible values: `credential`, `identity`, `logger`, `leaderboards`.
+Possible values: `credential`, `identity`, `logger`, `leaderboards`, `store`, `storage`.
 
-Example 1: Only identity services (comma separated, without spaces).
+Example 1: Only identity service (comma separated, without spaces).
 ```
 identity
 ```
