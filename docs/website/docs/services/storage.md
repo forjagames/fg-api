@@ -100,8 +100,8 @@ _the slug would be `new-database`._
 ![Sections](/img/storage/storage_menu.png)
 
 * __Menu items__
-  1. __Explorer (new window)__: Opens the [Explorer](../storage/explorer.md) in a new window.
-  2. __Explorer__: Opens the [Explorer](../storage/explorer.md).
+  1. __Explorer (new window)__: Opens the [Explorer](../storage/db-explorer.md) in a new window.
+  2. __Explorer__: Opens the [Explorer](../storage/db-explorer.md).
   3. __Edit__: Allows you to rename the database.
   4. __Copy UUID__: Copies the UUID of the database to the clipboard.
   5. __Delete__: Deletes the database permanently.
