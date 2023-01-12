@@ -62,7 +62,11 @@ ABC123/(Connection ID)/$me/match-start-date
 This engine is being developed.
 
 ### 3. File Storage
-This engine is being developed.
+File Storage is an object storage solution for the cloud. File Storage is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data.
+This storage engine is designed for:
+* Storing files for distributed access.
+* Writing to log files.
+* Storing data for backup and restore, disaster recovery, and archiving.
 
 ## Dashboard
 ![Sections](/img/storage/storage_dashboard_2.png)
