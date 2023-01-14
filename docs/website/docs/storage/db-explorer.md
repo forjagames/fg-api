@@ -13,7 +13,7 @@ DB Explorer is a tool for browsing the [storage service](../services/storage.md)
 Shows the status of the current connection.
 
 ### Navigation _Section_
-It has an action bar that allows you to insert new values, below the navigation bar, and at the end the table of values.
+It has an action bar that allows you to insert new values. Below there is a navigation bar, and at the end the table of values.
 
 With the table of values, we can browse the base, view and edit values, delete values.
 
