@@ -13,3 +13,9 @@ It has an action bar that allows you to upload files and create directories. Bel
 You can download the files, duplicate them, copy, move or delete them. 
 
 There is no recycle bin, so editing and deleting files cannot be undone.
+
+### Security _Section_
+It allows you to manage credentials, users, edit their permissions, and assign groups or roles to them.
+Groups allow you to group permissions, so you don't have to modify user permissions one by one.
+
+
