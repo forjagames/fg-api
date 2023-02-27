@@ -21,4 +21,4 @@ With the table of values, we can browse the base, view and edit values, delete v
 It allows you to manage users, edit their permissions, and assign groups or roles to them.
 Groups allow you to group permissions, so you don't have to modify user permissions one by one.
 
-[More info. about permissions](./kevin-db#user-permissions)
+[More info. about permissions](./kevin-db.md#user-permissions)
