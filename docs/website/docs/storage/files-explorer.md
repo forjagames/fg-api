@@ -15,7 +15,7 @@ You can download the files, duplicate them, copy, move or delete them.
 There is no recycle bin, so editing and deleting files cannot be undone.
 
 ### Security _Section_
-It allows you to manage credentials, users, edit their permissions, and assign groups or roles to them.
-Groups allow you to group permissions, so you don't have to modify user permissions one by one.
+It allows you to manage permissions for credentials and users.
+Permissions will allow or restrict end users to perform actions on files and folders.
 
 
