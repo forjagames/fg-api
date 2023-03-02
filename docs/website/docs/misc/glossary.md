@@ -9,6 +9,9 @@ An application programming interface (API) is a way for two or more computer pro
 ### Favicon
 A Favicon is an icon associated with a particular website, typically displayed in the address bar of a browser accessing the site or next to the site name in a user's list of bookmarks.
 
+### Wildcard
+A Wildcard (lternatively called a wild character or wildcard character), is a symbol used to replace or represent one or more characters. The most common wildcards are the asterisk (*), which represents one or more characters, and the question mark (?), which represents a single character.
+
 ## Blockchain
 
 ### Blockchain
