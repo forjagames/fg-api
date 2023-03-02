@@ -4,9 +4,9 @@ sidebar_position: 4
 
 # Files storage: Add or edit permissions
 
-![Main](/img/storage/storage_permissions_add.png)
-
 Permissions will allow or restrict end users to perform actions on files and folders.
+
+![Main](/img/storage/storage_permissions_add.png)
 
 ## Form fields
 - **Path**: Path of the permission. It accepts [wildcards](../misc/glossary.md#wildcard).
