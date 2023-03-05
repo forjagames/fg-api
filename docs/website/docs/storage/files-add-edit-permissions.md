@@ -20,3 +20,42 @@ Permission types are filters that are used when applying allowances and restrict
 
 * Credentials
 * Users
+
+## Examples
+### Example 1: 
+Everyone can read (R), create (C), edit (E) and delete (D) any file or folder.
+
+| Path                         | R | C | E | D | Type | Filter | Priority |
+|------------------------------|---|---|---|---|------|--------|----------|
+| **                           | V | V | V | V | User | *      | 0        |
+
+### Example 2
+Credential key "admin" can read, create, edit and delete any file or folder. Credential key "basic" can read only files in "public" folder.
+
+Let's make it step by step.
+
+Step 1: Add a restriction so that no one has permission to do anything with any files and folders.
+
+| Path                         | R | C | E | D | Type       | Filter | Priority |
+|------------------------------|---|---|---|---|------------|--------|----------|
+| **                           | X | X | X | X | Credential | *      | 0        |
+
+Step 2: Add the "admin" permissions. This will override the previous one only for the applied filter.
+
+| Path                         | R | C | E | D | Type       | Filter | Priority |
+|------------------------------|---|---|---|---|------------|--------|----------|
+| **                           | X | X | X | X | Credential | *      | 0        |
+| **                           | V | V | V | V | Credential | admin  | 1        |
+
+
+Step 3: Add the "basic" permissions. 
+
+| Path                         | R | C | E | D | Type       | Filter | Priority |
+|------------------------------|---|---|---|---|------------|--------|----------|
+| **                           | X | X | X | X | Credential | *      | 0        |
+| **                           | V | V | V | V | Credential | admin  | 1        |
+| **/public/*                  | V | X | X | X | Credential | basic  | 2        |
+
+
+
+
