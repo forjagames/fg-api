@@ -23,7 +23,11 @@ Users will be able to register, login, change their password, delete their accou
 - **Fail URL**: Return URL for unsuccessfull cases. It's required if you are working in redirect mode.
 - **Sign Up**: Shows or hides the sign up option.
 - **Sign Up URL** _(optional)_: Allows you to use a custom sign up URL. It only works in redirect mode.
-- **Guest Accounts**: Automatically creates an (unconfirmed) account if it doesn't exists and signs in to it. It only works if Sign UP is enabled.
+- **Guest Accounts**: The Guest Accounts feature allows users to access your project without the need to register their personal information. 
+When enabled, a temporary account is created for the user to access the platform's features. 
+If you have `wallet authentication` enabled, the guest accounts will be automatically created when users log in with their wallet and don't have an account. 
+Otherwise, users can manually create a guest account by clicking on the 'Create a guest account' button. 
+Please note that Guest Accounts are unconfirmed and temporary, and we recommend encouraging users to confirm their accounts for data permanence.
 - **Terms URL**: Your project terms & conditions.
 - **Privacy URL**: Your project privacy policy.
 
