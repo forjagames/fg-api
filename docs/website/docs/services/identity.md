@@ -18,7 +18,7 @@ Users will be able to register, login, change their password, delete their accou
 
 ### Settings
 - **E-mail Authentication**: Login with an e-mail address.
-- **Wallet Authentication**: Login with a [Metamask](../misc/glossary.md) wallet.
+- **Wallet Authentication**: Login with a [Metamask](../misc/glossary.md#Metamask) [Wallet](../misc/glossary.md#Wallet).
 - **Success URL**: Return URL for successfull cases. It's required if you are working in redirect mode.
 - **Fail URL**: Return URL for unsuccessfull cases. It's required if you are working in redirect mode.
 - **Sign Up**: Shows or hides the sign up option.
