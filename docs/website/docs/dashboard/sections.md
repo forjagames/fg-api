@@ -3,9 +3,9 @@ sidebar_position: 1
 ---
 
 # Dashboard
-The dashboard allows users to have an overview of their projects, the status of their account, news and useful links.
 
 ## Dashboard
+The dashboard allows users to have an overview of their projects, the status of their account, news and useful links.
 ![Sections](/img/dashboard/areas.png)
 
 ## Navigation Bar
