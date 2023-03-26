@@ -10,7 +10,7 @@ The project dashboard allows users to view project details, project status, serv
 ![Sections](/img/dashboard/project_dashboard_areas.png)
 
 ## Navigation Bar
-* __Back to dashboard button (top-left)__: Closes the current page and returns to the [main dashboard](../sections).
+* __Back to dashboard button (top-left)__: Closes the current page and returns to the [main dashboard](./sections.md).
 * __Menu button (dots at top-right)__: Allows you to add new credentials or access to the project settings.
   Options:
   * __Add credential__: Add new credentials.
