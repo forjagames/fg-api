@@ -59,7 +59,7 @@ ABC123/(Connection ID)/$me/match-start-date
   * **[User ID]**: only the specific `User ID` can read.
 
 ### 2. Key Value Simple DB
-This engine is being developed.
+This engine will be developed soon.
 
 ### 3. File Storage
 File Storage is an object storage solution for the cloud. File Storage is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data.
@@ -83,6 +83,7 @@ It shows four boxes with useful information.
 * The last one shows a summary of the last requests.
 
 ### Storage Engines _Area_
+#### KevinDB _Tab_
 The engines are divided into three tabs with their own names.
 In the image we appreciate the view when choosing the first tab, that is, the KevinDB tab.
 Inside it we can see an action bar, and a table with the existing databases for this engine.
@@ -100,11 +101,24 @@ _the slug would be `new-database`._
 ![Sections](/img/storage/storage_menu.png)
 
 * __Menu items__
-  1. __Explorer (new window)__: Opens the [Explorer](../storage/db-explorer.md) in a new window.
-  2. __Explorer__: Opens the [Explorer](../storage/db-explorer.md).
+  1. __Explore (new window)__: Opens the [Explorer](../storage/db-explorer.md) in a new window.
+  2. __Explore__: Opens the [Explorer](../storage/db-explorer.md).
   3. __Edit__: Allows you to rename the database.
   4. __Copy UUID__: Copies the UUID of the database to the clipboard.
   5. __Delete__: Deletes the database permanently.
+  6. __Cancel__: Close the menu without performing any action.
+
+#### Files _Tab_
+The `files tab` is for create/edit `drives`, and explore them to manage their files.
+
+![FilesTab](/img/storage/storage_dashboard_files.png)
+
+* __Menu items__
+  1. __Explore (new window)__: Opens the [Explorer](../storage/files-explorer.md) in a new window.
+  2. __Explore__: Opens the [Explorer](../storage/files-explorer.md).
+  3. __Edit__: Allows you to rename and/or expand the drive.
+  4. __Copy UUID__: Copies the UUID of the drive to the clipboard.
+  5. __Delete__: Deletes the drive permanently.
   6. __Cancel__: Close the menu without performing any action.
 
 ## Explorer
