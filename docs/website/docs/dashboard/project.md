@@ -14,7 +14,7 @@ The project dashboard allows users to view project details, project status, serv
 * __Menu button (dots at top-right)__: Allows you to add new credentials or access to the project settings.
   Options:
   * __Add credential__: Add new credentials.
-  * __Settings__: Project settings.
+  * __Settings__: Opens the [project settings](./project_settings.md) page.
   * __Cancel__: Closes the menu.
 
 ## Sections
