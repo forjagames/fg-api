@@ -8,16 +8,15 @@ Explorer is a tool for browsing the [storage service](../services/storage.md)'s 
 
 ![Sections](/img/storage/storage_files_explorer.png)
 
-## Sections
-### Navigation _Section_
+# Sections
+## Navigation _Section_
 It has an action bar that allows you to upload files and create directories. Below there is a navigation bar, and at the end the files and directories.
 
 You can download the files, duplicate them, copy, move or delete them. 
 
 There is no recycle bin, so editing and deleting files cannot be undone.
 
-
-#### Items
+### Items
 In this section, you will find a list of files and directories. 
 
 Directories are represented by folders, and each folder has a button with three vertical dots on the right side. 
@@ -30,7 +29,7 @@ By clicking on this button, a menu will appear with various options such as Down
 
 Similarly, for files, the menu will open automatically when clicked. This intuitive feature allows you to easily manage your files and directories within the platform, providing you with a seamless experience for organizing and handling your data.
 
-#### Moving files
+### Moving files
 To move your files, simply select the file and choose the `Move`` option from the file menu.
 
 ![Image](/img/storage/move_prompt.png)
@@ -41,7 +40,7 @@ For example, if you want to move a directory from the path `images/image.png` to
 
 By including a slash at the end, the filename will remain unchanged. If you wish to change the filename as well, you can use a new filename like `images/hd/landscape.png`.
 
-### Security _Section_
+## Security _Section_
 It allows you to manage permissions for credentials and users.
 Permissions will allow or restrict end users to perform actions on files and folders.
 
