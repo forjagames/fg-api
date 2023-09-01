@@ -6,9 +6,6 @@ sidebar_position: 6
 
 The `Storage Service` provides you with different tools to store information.
 
-**IMPORTANT: We are developing this service. It will be available very soon.**
-
-
 ## Storage Engines
 1. KevinDB (Key Value Identity-Integrated DB)
 2. KevsimDB (Key Value Simple DB)
