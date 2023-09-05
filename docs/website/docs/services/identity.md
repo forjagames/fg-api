@@ -83,8 +83,8 @@ button:hover {
 ```
 
 ## Security
-* Captcha
-* E-mail confirmation
+* Captcha.
+* E-mail confirmation.
 * Field locks: Fields with "field lock" (`username`) when modified are blocked for a certain amount of time, to avoid problems of a different nature.
 * Password validation: The password requires a minimum of 8 characters, and does not have to be included in the list of common passwords (listed with the top 10000 most used passwords). Password is stored as a hashusing the PBKDF2 algorithm.
 * Temporary account blocking: If the account has many failed login attempts, the account is temporarily locked to prevent unwanted access.
@@ -92,6 +92,7 @@ button:hover {
 
 ## Account Deletion
 * Users have the option to delete their accounts.
-* To do so, they must enter their password and complete a captcha verification. Once this is done, the account will be deactivated for 30 days. 
+* To do so, they must enter their password and successfully complete a captcha verification. Once this is done, the account will be deactivated for 30 days. 
 * If the user does not log in during this time, the account will be permanently deleted.
+* For guest accounts without a password, deletion is immediate.
 * If users wants to cancel the deletion, they can log in to their account before the 30-day period ends, and the deletion will be automatically cancelled.
