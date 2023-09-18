@@ -9,8 +9,14 @@ An application programming interface (API) is a way for two or more computer pro
 ### Favicon
 A Favicon is an icon associated with a particular website, typically displayed in the address bar of a browser accessing the site or next to the site name in a user's list of bookmarks.
 
+### Serverless
+Serverless is an innovative cloud computing paradigm for developing and running applications. It empowers developers to create and execute application code without the need to manually provision or oversee servers and backend infrastructure.
+
+### Use Case
+A use case defines a specific function or interaction that a system performs to fulfill a user's objective. Each use case should produce a tangible and meaningful outcome that holds value for the system's user.
+
 ### Wildcard
-A Wildcard (lternatively called a wild character or wildcard character), is a symbol used to replace or represent one or more characters. The most common wildcards are the asterisk (*), which represents one or more characters, and the question mark (?), which represents a single character.
+A Wildcard (alternatively called a wild character or wildcard character), is a symbol used to replace or represent one or more characters. The most common wildcards are the asterisk (*), which represents one or more characters, and the question mark (?), which represents a single character.
 
 ## Blockchain
 
