@@ -121,3 +121,8 @@ The `files tab` is for create/edit `drives`, and explore them to manage their fi
 ## Explorer
 * [DB Explorer](../storage/db-explorer.md) is a tool for browsing the service's databases, query rows, view and modify data, manage users, groups, and backups.
 * [Files Explorer](../storage/files-explorer.md) is a tool for browsing the service's drives, manage files and backups.
+
+## Storage Servers
+We provide you multiple servers for data storage. Each server can be selected when adding a new drive or a new database.
+
+In addition to our servers, you also have the option to add your own servers (for private use). For this functionality, please get in touch with our technical support, and we will assist you in adding and enabling them.
