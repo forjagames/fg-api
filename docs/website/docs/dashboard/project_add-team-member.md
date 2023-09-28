@@ -11,4 +11,4 @@ This allows `team members`them to stay updated on your game or app's progress, r
 
 Additionally, we are planning to introduce extended permission management in the future, which will allow project administrators to have greater control over user permissions, including the ability to grant users the ability to add new elements and make modifications.
 
-![Gif](/img/dashboard/add_new_project_30fps.gif)
+![Gif](/img/dashboard/add_new_teammember.gif)
