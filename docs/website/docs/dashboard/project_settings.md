@@ -15,9 +15,10 @@ You can access `project settings page` using the menu on the [project dashboard]
 The `Automatically Pay with Account Credit` option streamlines the payment process for your projects. When this feature is enabled, Nexus will automatically settle invoices at the end of the billing cycle using the available account credit. This ensures a seamless and hassle-free payment experience, especially if your account has sufficient credit to cover the incurred charges.
 
 Here's how it works:
-Enabled: When this option is `enabled`, Nexus will automatically deduct the necessary funds from your account credit to settle outstanding invoices. If the account credit is insufficient to cover the charges, Nexus will resort to other configured payment methods to complete the transaction.
 
-Disabled: Setting this option to `disabled` means that automatic payments using account credit will be disabled. However, keep in mind that other configured automatic payment methods, such as subscription payments through PayPal, will continue to operate as usual. In such cases, you'll still benefit from the convenience of automatic payments, just not using the account credit.
+* Enabled: When this option is `enabled`, Nexus will automatically deduct the necessary funds from your account credit to settle outstanding invoices. If the account credit is insufficient to cover the charges, Nexus will resort to other configured payment methods to complete the transaction.
+
+* Disabled: Setting this option to `disabled` means that automatic payments using account credit will be disabled. However, keep in mind that other configured automatic payment methods, such as subscription payments through PayPal, will continue to operate as usual. In such cases, you'll still benefit from the convenience of automatic payments, just not using the account credit.
 
 It's important to monitor your account credit balance and configure additional payment methods as needed to ensure uninterrupted service. This feature provides flexibility and convenience in managing your project's financial aspects.
 
