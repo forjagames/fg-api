@@ -10,6 +10,7 @@ You can access `project settings page` using the menu on the [project dashboard]
 ![Sections](/img/dashboard/project_settings.png)
 
 ## Payment Settings Section
+
 ### Automatically Pay with Account Credit
 The `Automatically Pay with Account Credit` option streamlines the payment process for your projects. When this feature is enabled, Nexus will automatically settle invoices at the end of the billing cycle using the available account credit. This ensures a seamless and hassle-free payment experience, especially if your account has sufficient credit to cover the incurred charges.
 
