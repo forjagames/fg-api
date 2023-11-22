@@ -16,11 +16,13 @@ The `Automatically Pay with Account Credit` option streamlines the payment proce
 
 Here's how it works:
 
-* Enabled: When this option is `enabled`, Nexus will automatically deduct the necessary funds from your account credit to settle outstanding invoices. If the account credit is insufficient to cover the charges, Nexus will resort to other configured payment methods to complete the transaction.
+* **Enabled**: When this option is set to `enabled`, Nexus will automatically deduct the necessary funds from your account credit to settle outstanding invoices. This includes charges associated with your selected plan as well as any additional fees that may arise from exceeding the usage limits of your plan. If the account credit is insufficient to cover the total charges, Nexus will prioritize other configured payment methods, ensuring uninterrupted service.
 
-* Disabled: Setting this option to `disabled` means that automatic payments using account credit will be disabled. However, keep in mind that other configured automatic payment methods, such as subscription payments through PayPal, will continue to operate as usual. In such cases, you'll still benefit from the convenience of automatic payments, just not using the account credit.
+* **Disabled**: Setting this option to `disabled` means that automatic payments using account credit will be disabled. However, keep in mind that other configured automatic payment methods, such as subscription payments through PayPal, will continue to operate as usual. In such cases, charges beyond your plan's limits will be automatically billed using the selected payment method, while the account credit remains untouched.
 
-It's important to monitor your account credit balance and configure additional payment methods as needed to ensure uninterrupted service. This feature provides flexibility and convenience in managing your project's financial aspects.
+It's important to monitor your account credit balance and configure additional payment methods as needed to ensure uninterrupted service, especially if your usage may result in charges beyond the plan's limits. This feature provides flexibility and convenience in managing your project's financial aspects.
+
+Feel free to enable or disable this option based on your preferences and project requirements. 
 
 ## Danger Zone Section
 
