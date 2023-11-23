@@ -8,18 +8,18 @@ The `settings page` allows users to configure his account and the payment method
 ## How to open the settings page?
 ![Sections](/img/dashboard/account_settings_menu.png)
 
-# Settings page
+## Settings page
 
-## Edit profile
+### Edit profile
 In this section you can edit your `account information`, and you can link [wallets](../misc/glossary.md#Wallet) to your account.
 
-## Change password
+### Change password
 In this section you can change your password.
 
-## Payments settings
+### Payments settings
 In this section you can setup your payment methods.
 
-# Payment Settings
+## Payment Settings
 
 ### Automatically Pay with Account Credit
 The `Automatically Pay with Account Credit` option streamlines the payment process for your projects. When this feature is enabled, Nexus will automatically settle invoices at the end of the billing cycle using the available account credit. This ensures a seamless and hassle-free payment experience, especially if your account has sufficient credit to cover the incurred charges.
