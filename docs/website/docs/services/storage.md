@@ -61,9 +61,16 @@ This engine will be developed soon.
 ### 3. File Storage
 File Storage is an object storage solution for the cloud. File Storage is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data.
 This storage engine is designed for:
+* Writing and reading files.
 * Storing files for distributed access.
 * Writing to log files.
 * Storing data for backup and restore, disaster recovery, and archiving.
+
+### Features
+* Create, write, list, read, download and delete files of any format.
+* Directory system to organize your files inside folders.
+* Customizable access control system.
+* Restrict access based on credentials or users.
 
 ## Dashboard
 ![Sections](/img/storage/storage_dashboard_2.png)
