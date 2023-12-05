@@ -4,12 +4,18 @@ sidebar_position: 2
 
 # Client Libraries
 
-## Official
+## Official SDK
+
+### Released
 - [Javascript SDK (Web Browsers)](./javascript-sdk/intro)
-  - [🔗 Official Repository](https://github.com/forjagames/fg-api)
   - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/js-browser)
-- Node SDK _(coming soon)_
-- NetStandard 2.0 SDK _(coming soon)_
+- NetStandard 2.0 SDK
+  - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/net-standard)
+
+### Comming soon
 - Unity SDK _(coming soon)_
+- Node SDK _(coming soon)_
+
+### Deprecated
 - Game Maker Studio 2.3+ SDK _(deprecated)_
   - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/gms2)
