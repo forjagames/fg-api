@@ -90,6 +90,11 @@ button:hover {
 * Temporary account blocking: If the account has many failed login attempts, the account is temporarily locked to prevent unwanted access.
 * Wallet confirmation: The owner of the wallet is confirmed by signing a value linked to his/her account.
 
+## Account Types
+* **Guest Account.** Guest Accounts are created without requiring any personal information from the user. These accounts are temporary, and if the user logs out, they might lose access to these accounts. They are designed to allow users to play without the need for registration; they can simply click a button to get started. Users have the option to convert these accounts into permanent ones at any time, as long as they don't close or lose the session.
+* **Unconfirmed Account.** Unconfirmed Accounts are permanent accounts that are created when users register but have not yet completed the confirmation process. The confirmation process typically involves verifying ownership of a phone number, email address, or Blockchain Wallet. Until the confirmation is complete, the account remains in an unconfirmed state.
+* **Confirmed Account.** Confirmed Accounts are fully verified and permanent accounts. Users with Confirmed Accounts have successfully completed the confirmation process, confirming ownership of their phone number, email address, or Blockchain Wallet. These accounts offer data permanence and full access to the platform's features.
+
 ## Account Deletion
 * Users have the option to delete their accounts.
 * To do so, they must enter their password and successfully complete a captcha verification. Once this is done, the account will be deactivated for 30 days. 

@@ -26,5 +26,5 @@ After being created, Log sessions have a maximum life of `90 days`. After this t
 
 However, if a session does not receive a log for at least `3 days`, it will automatically be finished.
 
-Finished sessions are not deleted, allowing you to analize the logs. Only empty finished sessions will be automatically deleted.
-You as administrator have the power to delete finished sessions.
+Finished sessions will be stored for a duration of `one year` from the session's end date, allowing you to analyze the logs. After this period, the finished sessions will be automatically removed. 
+As an administrator, you can manually delete completed sessions.
