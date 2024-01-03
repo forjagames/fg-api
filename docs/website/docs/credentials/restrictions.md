@@ -36,7 +36,7 @@ Using the Request Origin Restriction, you can specify from which origins (addres
 
 Example 1: Itch.io
 ```
-v6p9d9t4.ssl.hwcdn.net
+v6p9d9t4.ssl.hwcdn.net,html-classic.itch.zone
 ```
 
 Example 2: Specific IP and Localhost
