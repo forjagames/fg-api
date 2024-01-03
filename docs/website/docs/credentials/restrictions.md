@@ -31,15 +31,22 @@ credential,identity,logger,leaderboards
 ```
 
 ### Request Origin Restriction
+With the Request Origin Restriction feature, you can specify from which origins (addresses) the credential will accept requests.
 
-Using the Request Origin Restriction, you can specify from which origins (addresses) the credential will accept requests.
+Additionally, you have the flexibility to use wildcards in the addresses, allowing for more versatile configurations. 
+For example, instead of specifying `http-classic.itch.zone`, you can use wildcards such as `*.itch.zone` to broaden the scope of accepted origins.
 
 Example 1: Itch.io
 ```
 v6p9d9t4.ssl.hwcdn.net,html-classic.itch.zone
 ```
 
-Example 2: Specific IP and Localhost
+Example 2: Itch.io (using wildcards)
+```
+*.ssl.hwcdn.net,*.itch.zone
+```
+
+Example 3: Specific IP and Localhost
 ```
 192.168.1.15,127.0.0.1,localhost
 ```
