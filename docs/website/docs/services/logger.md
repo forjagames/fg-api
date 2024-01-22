@@ -28,3 +28,92 @@ However, if a session does not receive a log for at least `3 days`, it will auto
 
 Finished sessions will be stored for a duration of `one year` from the session's end date, allowing you to analyze the logs. After this period, the finished sessions will be automatically removed. 
 As an administrator, you can manually delete completed sessions.
+
+# Metrics
+
+Metrics are fundamental entities that enable the measurement of various actions of your projects.
+
+## Metric Properties
+
+- **Type:** Indicates the type of the metric.
+- **Divisible (default: no):** Determines if the metric can be subdivided into smaller components based on tags.
+- **Identifiable (default: no):** Specifies whether the metric supports division by identifiers.
+- **Maximum Value (default: no limits):** Sets the upper limit for metric values.
+- **Accepts Negative Values? (default: no):** Defines whether the metric can incorporate negative values.
+
+## Metric Types
+
+### Accumulators
+Metrics falling under this category only accept value increments. Accumulators can only increment values by 1.
+
+*Example:* Total number of individuals who have won the game.
+
+### Counters
+Metrics in this category allow both value additions and subtractions.
+
+*Example:* Count of users within level 5.
+
+### Springs
+These metrics incorporate a time-sensitive element. If a specific time window elapses without an update, the metric value is automatically subtracted.
+
+*Example:* Count of identified users actively engaging with the game.
+
+## Common Use-Cases
+
+### Users by Version
+- **Type:** Counter.
+- **Divisible:** Yes (version number).
+- **Identifiable:** Yes (user ID).
+
+*Example:* Tracking user distribution across different software versions.
+
+### Total Times Played
+- **Type:** Accumulator.
+- **Divisible:** No.
+- **Identifiable:** No.
+
+*Example:* Recording the overall frequency of gameplay sessions.
+
+### Total Times Played per Version
+- **Type:** Accumulator.
+- **Divisible:** Yes (version number).
+- **Identifiable:** No.
+
+*Example:* Analyzing gameplay frequency based on software version.
+
+### Total Accesses to a Specific Level
+- **Type:** Accumulator.
+- **Divisible:** Yes (level ID).
+- **Identifiable:** No.
+
+*Example:* Monitoring the engagement with a particular game level.
+
+### Total Game Time
+- **Type:** Accumulator.
+- **Divisible:** No.
+- **Identifiable:** No.
+
+*Example:* Capturing the overall duration of gameplay.
+
+### Total Game Time per Version
+- **Type:** Accumulator.
+- **Divisible:** Yes (version number).
+- **Identifiable:** No.
+
+*Example:* Analyzing total gameplay duration based on software version.
+
+### Total Game Time per Level
+- **Type:** Accumulator.
+- **Divisible:** Yes (level ID).
+- **Identifiable:** No.
+
+*Example:* Examining total gameplay duration for each game level.
+
+### Total Game Time per Level per User
+- **Type:** Accumulator.
+- **Divisible:** Yes (level ID).
+- **Identifiable:** Yes (user ID).
+
+*Example:* Detailed analysis of individual user gameplay duration across different game levels.
+
+
