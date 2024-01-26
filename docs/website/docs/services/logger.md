@@ -35,15 +35,7 @@ As an administrator, you can manually delete completed sessions.
 
 Metrics are fundamental entities that enable the measurement of various actions of your projects.
 
-### Metric Properties
-
-- **Type:** Indicates the type of the metric.
-- **Divisible (default: no):** Determines if the metric can be subdivided into smaller components based on tags.
-- **Identifiable (default: no):** Specifies whether the metric supports division by identifiers.
-- **Maximum Value (default: no limits):** Sets the upper limit for metric values.
-- **Accepts Negative Values? (default: no):** Defines whether the metric can incorporate negative values.
-
-### Metric Types
+### Metric types
 
 #### Accumulators
 Metrics falling under this category only accept value increments. Accumulators can only increment values by 1.
@@ -60,7 +52,19 @@ These metrics incorporate a time-sensitive element. If a specific time window el
 
 *Example:* Count of identified users actively engaging with the game.
 
-### Common Use-Cases
+### Metric properties
+
+#### Common properties
+- **Type:** Indicates the type of the metric.
+- **Divisible (default: no):** Determines if the metric can be subdivided into smaller components based on tags.
+- **Identifiable (default: no):** Specifies whether the metric supports division by identifiers.
+- **Accepts Negative Values? (default: no):** Defines whether the metric can incorporate negative values.
+- **Maximum Value (default: no limits):** Sets the upper limit for metric values.
+
+#### Additional spring properties
+- **Value duration en minutes (default: 5):** Sets the expiration of the values.
+
+### Common use-cases
 
 #### Users by Version
 - **Type:** Counter.
