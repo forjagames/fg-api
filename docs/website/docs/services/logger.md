@@ -31,7 +31,7 @@ However, if a session does not receive a log for at least `3 days`, it will auto
 Finished sessions will be stored for a duration of `one year` from the session's end date, allowing you to analyze the logs. After this period, the finished sessions will be automatically removed. 
 As an administrator, you can manually delete completed sessions.
 
-# Metrics
+## Metrics
 
 Metrics are fundamental entities that enable the measurement of various actions of your projects.
 
