@@ -33,7 +33,7 @@ credential,identity,logger,leaderboards
 ### Request Origin Restriction
 With the Request Origin Restriction feature, you can specify from which origins (addresses) the credential will accept requests.
 
-Additionally, you have the flexibility to use wildcards in the addresses, allowing for more versatile configurations. 
+Additionally, you have the flexibility to use [wildcards](../misc/glossary.md#wildcard) in the addresses, allowing for more versatile configurations. 
 For example, instead of specifying `http-classic.itch.zone`, you can use wildcards such as `*.itch.zone` to broaden the scope of accepted origins.
 
 Example 1: Itch.io
