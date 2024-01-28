@@ -1,6 +1,6 @@
 # Getting Started
 
-The text of this page has been extracted from https://github.com/forjagames/fg-api. We recommend that you use this link for an up-to-date reference.
+The text of this page has been extracted from https://github.com/forjagames/fg-api/tree/main/libs/js-browser. We recommend that you use this link for an up-to-date reference.
 
 ## Setup
 Download `fg-api.js` or `fg-api.min.js` and use it into your website.
