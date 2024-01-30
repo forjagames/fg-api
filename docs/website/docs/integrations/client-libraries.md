@@ -7,16 +7,20 @@ sidebar_position: 2
 ## Official SDK
 
 ### Released
-- [Vanilla Javascript SDK (Web Browsers)](./javascript-browser-sdk/intro)
+- [Vanilla Javascript SDK](./javascript-browser-sdk/intro)
+  - Target: web browsers, frontend with vanilla javascript.
   - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/js-browser)
-- [Javascript/Typescript SDK (Angular/React/Vue or Node or any Typescript/Javascript based application/game)](./typescript-sdk/intro)
+- [Javascript/Typescript SDK](./typescript-sdk/intro)
+  - Targets:
+    - Angular/React/Vue applications or games.
+    - Typescript-based applications or games.
+    - Node.js applications or games.
   - Download: `npm i --save @forjagames/nexus`
 - NetStandard 2.0 SDK
   - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/net-standard)
 
 ### Comming soon
 - Unity SDK _(coming soon)_
-- Node SDK _(coming soon)_
 
 ### Deprecated
 - Game Maker Studio 2.3+ SDK _(deprecated)_
