@@ -10,8 +10,6 @@ In this section we will explain Nexus billing.
 
 ![Overview](/img/billing/billing_overview.png)
 
-# Billing Management
-
 Navigate through the following subsections to efficiently manage your payments, and gain valuable insights into your project consumption.
 
 ### Navigation
