@@ -37,6 +37,18 @@ View and manage your billing invoices conveniently.
 
 Track the status of payment orders, providing visibility into processing or rejection status.
 
+#### Refunds
+
+To initiate the refund process, follow these steps:
+
+1. Locate the order you wish to refund in the order history.
+
+2. Click the "Refund" button in the action column associated with the order, and follow the steps.
+
+Please note the following:
+
+* Refund requests can be submitted up to a maximum of 15 days from the creation date of the order. After this period, refund requests will no longer be accepted.
+
 ### Analytics
 
 Access tools for estimating costs and monitoring consumption trends. Charts include daily project consumption and cumulative consumption for the current month, with the ability to explore historical data from previous months.
