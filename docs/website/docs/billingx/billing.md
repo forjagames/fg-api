@@ -62,28 +62,30 @@ The total of the resources reserved is registered day by day. The costs are appl
 ## FAQ
 
 ### How do we calculate daily consumption?
-For the calculation to be independent of the number of days in the month, we use the following formula:
+
+> _**Disclaimer**: The calculation method described in this document, specifically regarding daily consumption, is provided for informational purposes and may be subject to updates or changes. While we strive for accuracy, the information presented here may not be 100% precise or reflect the current calculation methods. We recommend consulting the billing page or reaching out to our support team for the latest and most accurate information regarding cost calculations._
+
+To ensure the calculation remains independent of the number of days in the month, we employ the following formula:
 
 ```
-Precise daily cost (PDC) = (Total monthly cost of all projects) * 12 / 365
+Precise Daily Cost (PDC) = (Total Monthly Cost of all Projects) * 12 / 365
 ```
 
-Then, we get a number with a lot of decimals.
+This yields a decimal-rich result.
 
-To round up the value, we use this last formula:
+To round the value, we utilize the following formula:
 
 ```
-Final daily cost (FDC) = Round(PDC * (10 ^ 8)) / (10 ^ 8)
+Final Daily Cost (FDC) = Round(PDC * (10 ^ 8)) / (10 ^ 8)
 ```
 
-For example, if the monthly cost of all your projects is 2.5 dollars:
+For example, if the monthly cost of all your projects is $2.5:
 
 ```
 PDC = 2.5 * 12 / 365 = 0.08219178082191780821917808219178
-FDC = Round(PDC * 10 ^ 8) / (10 ^ 8) = 8219178 / (10 ^ 8) = 0.08219178
+FDC = Round(PDC * (10 ^ 8)) / (10 ^ 8) = 8219178 / (10 ^ 8) = 0.08219178
 
-Final daily cost = 0.08219178
+Final Daily Cost = 0.08219178
 ```
 
-At the end of the month, the monthly cost of each project is obtained by adding the consumption measured on each day. Then each project's total is rounded to two decimal places, and added, to determine the total cost of the invoice.
-
+At the end of the month, the monthly cost of each project is determined by summing the consumption measured on each day. Then, the total for each project is rounded to two decimal places, and added, to determine the total invoice cost.
