@@ -2,15 +2,15 @@
 sidebar_position: 7
 ---
 
-# Account And Payments Settings
-The `settings page` allows users to configure his account and the payment methods.
+# Account, Security and Payments Settings
+On the `Settings page`, you can make adjustments to your account information, enhance security through password changes, and manage your payment preferences.
 
 ## Settings page
 
 ### How to open the settings page?
 ![Sections](/img/dashboard/account_settings_menu.png)
 
-### Edit profile
+### Account settings
 In this section you can edit your `account information`, and you can link [wallets](../misc/glossary.md#Wallet) to your account.
 
 ### Change password
