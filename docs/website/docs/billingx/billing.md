@@ -6,6 +6,47 @@ sidebar_position: 1
 
 In this section we will explain Nexus billing.
 
+## Subpages
+
+![Overview](/img/billing/billing_overview.png)
+
+# Billing Management
+
+Navigate through the following subsections to efficiently manage your payments, and gain valuable insights into your project consumption.
+
+### Navigation
+
+- **Overview**: Explore your usage patterns, manage funds, review outstanding balances, and make informed decisions about your current plan and automatic payments.
+- **Invoices**: Effortlessly view and settle your billing invoices directly from this section.
+- **Orders**: Track the status of payment orders.
+- **Analytics**: Tools for estimating costs and monitoring consumption trends, with visual charts providing a clear overview.
+- **Subscription**: Discover available plans, explore plan changes or upgrades, and tailor your subscription to meet your evolving needs.
+
+### Overview
+
+Explore your usage patterns with daily and monthly consumption details for projects or your subscribed plan. Key actions include:
+
+- **Balance:** Manage funds with options to add more.
+- **Account Debt:** Review the status of outstanding balances.
+- **Current Plan:** Details about your existing plan with the option to change.
+- **Automatic Payments:** Enable or disable automatic payments using account credit.
+
+### Invoices
+
+View and manage your billing invoices conveniently.
+
+### Orders
+
+Track the status of payment orders, providing visibility into processing or rejection status.
+
+### Analytics
+
+Access tools for estimating costs and monitoring consumption trends. Charts include daily project consumption and cumulative consumption for the current month, with the ability to explore historical data from previous months.
+
+### Subscription
+
+Explore available plans and manage plan changes or upgrades.
+
 ## Resources
 - Bandwidth: bandwidth consumed by each request.
 - Requests: calls to different services.
