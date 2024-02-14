@@ -19,6 +19,9 @@ In this section you can change your password.
 ### Payments settings
 In this section you can setup your payment methods.
 
+### Widgets
+In this section you can setup your home page widgets.
+
 ## Payment Settings
 
 ### Automatically Pay with Account Credit
