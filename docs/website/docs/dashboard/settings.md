@@ -2,10 +2,10 @@
 sidebar_position: 7
 ---
 
-# Account, Security and Payments Settings
+# Settings page
 On the `Settings page`, you can make adjustments to your account information, enhance security through password changes, and manage your payment preferences.
 
-## Settings page
+## Overview
 
 ### How to open the settings page?
 ![Sections](/img/dashboard/account_settings_menu.png)
