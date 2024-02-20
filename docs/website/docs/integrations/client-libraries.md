@@ -17,8 +17,10 @@ sidebar_position: 2
 - [Vanilla Javascript SDK](./javascript-browser-sdk/intro)
   - Targets:
     - Web browsers, frontend with vanilla javascript.
-  - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/js-browser) 
-- NetStandard 2.0 SDK
+  - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/js-browser)
+- .NET 6.0 SDK
+  - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/net-standard)
+- .NET Standard 2.0 SDK
   - [🔗 Download](https://github.com/forjagames/fg-api/tree/main/libs/net-standard)
 
 ### Comming soon
