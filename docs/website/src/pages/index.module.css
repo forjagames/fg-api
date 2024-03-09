@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
@@ -22,10 +22,7 @@
   justify-content: center;
 }
 
-/* Customization */
-.mainIndex {
-  height: 150px;
-  width: 100%;
-  text-align: center;
-  padding-top: 50px;
+.heroTitle,
+.heroSubtitle {
+  color: #eaeaea;
 }
