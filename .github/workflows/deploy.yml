@@ -5,15 +5,20 @@ on:
     branches: [main]
     paths: [docs/website/**]
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
         with:
-          node-version: 14.x
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
       - name: Build website
         working-directory: docs/website
         run: |
