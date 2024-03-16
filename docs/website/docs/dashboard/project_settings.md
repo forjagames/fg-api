@@ -2,12 +2,26 @@
 sidebar_position: 4
 ---
 
-# Settings - Project
+# Project Settings
 The `project settings page` allows you to configure, enable, disable, or delete the project.
 
 You can access `project settings page` using the menu on the [project dashboard](./project.md).
 
 ![Sections](/img/dashboard/project_settings.png)
+
+## Information Section
+
+In this section you can change the `name` or `slug` of your project.
+
+### Form fields
+- **Name:** Name of your project. This is how your project will be identified within the dashboard.
+- **Slug:** The URL slug is a unique identifier for your project in the dashboard. It's the part of the URL after the last backslash. For example, the article you’re reading now has a URL that looks like this: 
+
+```
+https://forjagames.github.io/fg-api/docs/dashboard/dashboard_add-new-project
+```
+
+The example URL’s slug is `dashboard_add-new-project`.
 
 ## Danger Zone Section
 
