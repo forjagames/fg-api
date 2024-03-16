@@ -18,6 +18,6 @@ When adding a new project, you'll need to fill in the following form fields:
 https://forjagames.github.io/fg-api/docs/dashboard/dashboard_add-new-project
 ```
 
-The URL’s slug is `dashboard_add-new-project`.
+The example URL’s slug is `dashboard_add-new-project`.
 
 
