@@ -14,7 +14,7 @@ If you want to use a CDN, you have the next options:
 
 ### Development library (latest version)
 ```html
-<script src="https://cdn.jsdelivr.net/gh/forjagames/fg-api@main/libs/js-browser/fg-api.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/forjagames/fg-api@latest/libs/js-browser/fg-api.min.js"></script>
 ```
 
 ### Specific version
@@ -37,7 +37,7 @@ The first step is to initialize the API. To do this, once you have done the Setu
 So, you need to call the `initialize` method, and fill it with your project credentials.
 
 ```javascript
-var promise = fgApi.initialize('PUBLIC KEY', 'SECRET');
+const promise = fgApi.initialize('PUBLIC KEY', 'SECRET');
 ```
 
 The `initialize` method can also take additional parameters.
