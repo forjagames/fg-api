@@ -15,10 +15,8 @@ In this section you can edit your `account information`, and you can link [walle
 
 ### Email settings
 In this section, you can edit your notification settings to choose whether to receive or stop receiving emails for various types of notifications, including:
-- Notifications
 - Alerts
 - Weekly reports
-- Monthly reports
 
 ### Change password
 In this section, you can change your password.
