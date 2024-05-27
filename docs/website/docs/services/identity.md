@@ -95,6 +95,14 @@ button:hover {
 * **Unconfirmed Account.** Unconfirmed Accounts are permanent accounts that are created when users register but have not yet completed the confirmation process. The confirmation process typically involves verifying ownership of a phone number, email address, or Blockchain Wallet. Until the confirmation is complete, the account remains in an unconfirmed state.
 * **Confirmed Account.** Confirmed Accounts are fully verified and permanent accounts. Users with Confirmed Accounts have successfully completed the confirmation process, confirming ownership of their phone number, email address, or Blockchain Wallet. These accounts offer data permanence and full access to the platform's features.
 
+## Email Settings
+In this section, you can configure the email settings to enable features such as account confirmation and password recovery.
+
+### Fields:
+* **Project Public Name (required).** This is the name that will be displayed in emails sent to users. It helps recipients recognize the source of the email.
+* **Email Signature (optional).** This is a custom signature that will be appended to the end of your emails. It can include contact information, company name, or any other relevant details.
+* **HTML Support (optional, default: false).** Enable this option if you want to send emails in HTML format, which allows for richer formatting and better visual presentation. By default, this setting is disabled and emails are sent in plain text.
+
 ## Account Deletion
 * Users have the option to delete their accounts.
 * To do so, they must enter their password and successfully complete a captcha verification. Once this is done, the account will be deactivated for 30 days. 
