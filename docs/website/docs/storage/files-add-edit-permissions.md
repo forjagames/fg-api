@@ -22,7 +22,7 @@ Permission types are filters that are used when applying allowances and restrict
 * Users
 
 ## Examples
-### Example 1: 
+### Example 1
 Everyone can read (R), create (C), edit (E) and delete (D) any file or folder.
 
 | Path                         | R | C | E | D | Type | Filter | Priority |
